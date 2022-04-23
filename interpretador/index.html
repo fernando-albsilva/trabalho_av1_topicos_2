@@ -1,0 +1,97 @@
+<script>
+  
+  
+  const precedencia = "/*+-";  
+  const operadores = /[^\d()]+|[\d.]+/g;
+  const numeros = /\d+/g;
+  
+  //----------------------------------------------------------//
+  
+  function geraTokens(instrucao) {    
+    // Retira os espaços em branco
+    instrucao = instrucao.replace(/\s+/g, '');    
+    // Retorna os tokens
+    return instrucao.match(operadores);
+    
+  }
+
+  //----------------------------------------------------------//
+
+  function converteLiterais(tokens) {
+    let i;
+    for(i = 0; i < tokens.length; i++) {
+      let valor = tokens[i].match(numeros);
+      if(valor != null) 
+        tokens[i] = parseFloat(tokens[i], 10);      
+    }
+    return tokens;
+  }
+  
+  //----------------------------------------------------------//
+
+  function executar(tokens) {
+    if(tokens.length == 1)
+      return tokens[0];
+
+    let posOperador = -1;
+    let valorPrecedencia;
+    
+    for(i = 0; i < tokens.length; i++) {
+      if(typeof tokens[i] != 'string')
+        continue;
+      let valor = tokens[i].match(operadores);
+      // Se é um operador
+      if(valor != null) {
+        if(posOperador == -1) {
+          posOperador = i;
+          valorPrecedencia = precedencia.indexOf(valor);
+        }
+        else {
+          if(precedencia.indexOf(valor) < valorPrecedencia) {
+            posOperador = i;
+            valorPrecedencia = precedencia.indexOf(valor);
+          }          
+        }          
+      }
+    }
+        
+    if(posOperador <= 0 || posOperador == tokens.length - 1)
+      alert("Erro Sintático!");
+
+    let op1 = tokens[posOperador-1];
+    if(typeof op1 != 'number')
+      alert("Erro Sintático!");
+        
+    let op2 = tokens[posOperador+1];
+    if(typeof op2 != 'number')
+      alert("Erro Sintático!");
+        
+    let operador = tokens[posOperador];
+    let resultado;        
+    if(operador == '/') 
+      resultado = op1 / op2;
+    else if(operador == '*') 
+      resultado = op1 * op2;
+    else if(operador == '-') 
+      resultado = op1 - op2;
+    else if(operador == '+') 
+      resultado = op1 + op2;
+    tokens[posOperador] = resultado;
+    tokens.splice(posOperador-1,1);
+    tokens.splice(posOperador,1);
+    return executar(tokens);
+  }
+  
+  //----------------------------------------------------------//
+
+  
+  
+  var declaracaoVariaveis = "i = 10, j = 20"
+  var instrucao = "7.1*j + 5 - i/3";
+  
+  var tokens = geraTokens(instrucao);
+  tokens = converteLiterais(tokens);
+  alert(executar(tokens));
+
+
+</script>
