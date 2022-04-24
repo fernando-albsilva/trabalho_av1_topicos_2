@@ -2,3 +2,18 @@
 
 `Aluno: Fernando Albuquerque Silva` <br><br>
 `Matrícula: 0050005653`
+
+# Home page
+<p align="center">
+  <img src="./mockup/homePage.png">
+</p>
+
+# Cadastro de Empresa
+<p align="center">
+  <img src="./mockup/cadastroEmpresa.png">
+</p>
+
+# Cadastro de Embarcações
+<p align="center">
+  <img src="./mockup/cadastroEmbacacao.png">
+</p>
