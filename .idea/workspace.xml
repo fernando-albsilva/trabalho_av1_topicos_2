@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d9c105c-1d3c-4695-bff7-0ea6f4a28b39" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.glitch-assets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/av1trabtopico.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.well-known/assetlinks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aluno.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CtrlManterAlunos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CtrlManterDepartamentos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CtrlSessao.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaoAluno.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaoDepartamento.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Departamento.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Status.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewerAluno.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewerDepartamento.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewerError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemplo/exemplo1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemplo/exemplo2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemplo/exemplo3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemplo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/144-144.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/16-16.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/192-192.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/32-32.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/48-48.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/512-512.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/512-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/72-72.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/96-96.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/icones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexOld.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interpretador/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockup.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styleOld.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topicos2.zip" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28FP5weyOZ95IqGJkuMtXZAgkms" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d9c105c-1d3c-4695-bff7-0ea6f4a28b39" name="Changes" comment="" />
+      <created>1650809182161</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650809182161</updated>
+      <workItem from="1650809183558" duration="428000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

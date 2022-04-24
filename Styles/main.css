@@ -1,0 +1,80 @@
+html, body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    background-color: #22272e;
+    overflow-x: none;
+    box-sizing: border-box;
+}
+
+header,footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #adbac7;
+    font-size: 2rem;
+    border-bottom: 1px solid  #adbac7;
+}
+
+main {
+    height: calc(100% - 210px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 464px;
+    box-sizing: border-box;
+    padding: 30px;
+    border: 2px solid #adbac7;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.form-inputs {
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #adbac7;
+    font-size: 1.2rem;
+}
+
+.form-inputs > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aviso{
+    color: #adbac7;
+}
+
+
+footer {
+    border-top: 1px solid  #adbac7;
+    box-sizing: border-box;
+    border-bottom: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
